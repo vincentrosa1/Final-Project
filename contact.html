@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Author & Description -->
+    <meta name="description" content="GIT 215 Final Project - Swiss Serenity Resort website">
+    <meta name="author" content="Vincent Rosa">
+
+    <title>Swiss Serenity Resort | Contact Us</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="copy-of-styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+
+
+</head>
+
+<body>
+    <div class="contact-container">
+    <header>
+        <h1><a href="index.html">Serenity Resort</a></h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">Accommodations</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="contact-hero">
+        <img src="images/swiss-valley.jpg" alt="Gorgeous view of Swiss valley">
+    </div>
+
+    
+    <main class="contact-main">
+        <div class="content>">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. 
+            <br>We are happy to help you plan your dream vacation with us!
+             </p>
+            <div class="contact-image">
+                <img src="images/swiss-peak.jpg" alt="A view of the Swiss mountain peak surrounded by clouds">
+            </div>
+        </div>
+
+            <form class="contact-form" action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                <div class="name">
+                    <label for="full-name">Full Name *</label>
+                    <input type="text" id="full-name" name="full-name" required>
+                </div>
+
+                <div class="email">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="phone">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="preferred">
+                    <label>Preferred Contact Method *</label>
+                    <div class="inline">
+                        <input type="radio" id="pref-email" name="method" value="email" required>
+                        <label for="email">Email</label>
+                        <input type="radio" id="pref-phone" name="method" value="phone" required>
+                        <label for="phone">Phone</label>
+                    </div>
+                </div>
+
+                <div class="comments">
+                    <label for="comments"> Comments *</label>
+                    <textarea id="comments" name="comments" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+    
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2023 - Swiss Serenity Resort</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+    </div>
+</body>
+
+</html>
